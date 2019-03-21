@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Flu-o9-8TM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ENB-aO-N5c">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Flu-o9-8TM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TzJ-l7-B2y">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rJe-Sg-HIi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXC-ei-1IG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-689" y="133"/>
+        </scene>
+        <!--Shop View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ShopViewController" customModule="SimplExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="bXF-hi-Ffa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="mNM-ed-6BN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEblack" translatesAutoresizingMaskIntoConstraints="NO" id="uui-L7-1kj">
+                                <rect key="frame" x="112.5" y="12.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="TtP-Jn-pqx"/>
+                                    <constraint firstAttribute="height" constant="150" id="cYp-8Y-Nrp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peas" translatesAutoresizingMaskIntoConstraints="NO" id="ulf-IC-8M3">
+                                <rect key="frame" x="61" y="259" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0cz-Qr-z27"/>
+                                    <constraint firstAttribute="width" constant="100" id="b7s-8f-7mS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eggs" translatesAutoresizingMaskIntoConstraints="NO" id="hQc-LD-7c4">
+                                <rect key="frame" x="219" y="264" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="arH-Uf-Fhv"/>
+                                    <constraint firstAttribute="width" constant="100" id="q3S-Wh-dQA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beans" translatesAutoresizingMaskIntoConstraints="NO" id="gHa-uj-h4A">
+                                <rect key="frame" x="219" y="444" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="7xW-ui-cHo"/>
+                                    <constraint firstAttribute="width" constant="100" id="Y0X-SQ-c7c"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="sEy-6h-uuE">
+                                <rect key="frame" x="61" y="444" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="IcF-GG-LtT"/>
+                                    <constraint firstAttribute="height" constant="100" id="fTi-Ds-XFq"/>
+                                </constraints>
+                            </imageView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="1Xk-Ta-O1n">
+                                <rect key="frame" x="64" y="235" width="94" height="29"/>
+                                <color key="tintColor" red="1" green="0.56862745098039214" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="updatePeas:" destination="BYZ-38-t0r" eventType="valueChanged" id="2cx-Rh-ox0"/>
+                                </connections>
+                            </stepper>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Cs0-kQ-rK4">
+                                <rect key="frame" x="222" y="235" width="94" height="29"/>
+                                <color key="tintColor" red="1" green="0.56862745098039214" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="updateEggs:" destination="BYZ-38-t0r" eventType="valueChanged" id="0bs-U8-vwc"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tp-TT-BOL">
+                                <rect key="frame" x="263" y="344" width="12" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xu1-1c-sAo">
+                                <rect key="frame" x="64" y="405" width="94" height="29"/>
+                                <color key="tintColor" red="1" green="0.56862745098039214" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="updateMilk:" destination="BYZ-38-t0r" eventType="valueChanged" id="1Cr-pB-0ZS"/>
+                                </connections>
+                            </stepper>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="7bL-qD-drK">
+                                <rect key="frame" x="222" y="405" width="94" height="29"/>
+                                <color key="tintColor" red="1" green="0.56862745098039214" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="updateBeans:" destination="BYZ-38-t0r" eventType="valueChanged" id="2ax-0Q-WDf"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ton-2y-wZR">
+                                <rect key="frame" x="105" y="344" width="12" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5s-Ys-SaL">
+                                <rect key="frame" x="105" y="557" width="12" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTP-Jz-Ml8">
+                                <rect key="frame" x="263" y="556" width="12" height="23"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What would you like to add to your basket?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTB-AX-i6E">
+                                <rect key="frame" x="27.5" y="185" width="320" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrb-6r-h4w">
+                                <rect key="frame" x="37.5" y="597" width="300" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.56862745098039214" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="F5O-lo-i0u"/>
+                                    <constraint firstAttribute="width" constant="300" id="hT7-1I-dKL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <state key="normal" title="Checkout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="gyE-XQ-QAv" kind="show" id="71V-Bb-D8w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R5s-Ys-SaL" firstAttribute="centerX" secondItem="sEy-6h-uuE" secondAttribute="centerX" id="3Dm-Gl-wyr"/>
+                            <constraint firstItem="xu1-1c-sAo" firstAttribute="top" secondItem="ton-2y-wZR" secondAttribute="bottom" constant="40" id="66y-kv-XFe"/>
+                            <constraint firstItem="R5s-Ys-SaL" firstAttribute="top" secondItem="sEy-6h-uuE" secondAttribute="bottom" constant="13" id="6cp-5h-ZXZ"/>
+                            <constraint firstItem="ulf-IC-8M3" firstAttribute="centerX" secondItem="1Xk-Ta-O1n" secondAttribute="centerX" id="CDT-wV-Dx6"/>
+                            <constraint firstItem="ton-2y-wZR" firstAttribute="centerY" secondItem="6tp-TT-BOL" secondAttribute="centerY" id="EIH-aD-q02"/>
+                            <constraint firstItem="TTP-Jz-Ml8" firstAttribute="top" secondItem="gHa-uj-h4A" secondAttribute="bottom" constant="12" id="Fad-DW-abb"/>
+                            <constraint firstItem="6tp-TT-BOL" firstAttribute="centerX" secondItem="hQc-LD-7c4" secondAttribute="centerX" id="G4D-cO-hGy"/>
+                            <constraint firstItem="7bL-qD-drK" firstAttribute="centerX" secondItem="Cs0-kQ-rK4" secondAttribute="centerX" id="LUU-Co-IdQ"/>
+                            <constraint firstItem="hQc-LD-7c4" firstAttribute="centerX" secondItem="Cs0-kQ-rK4" secondAttribute="centerX" id="Nur-RC-4J3"/>
+                            <constraint firstItem="TTP-Jz-Ml8" firstAttribute="centerX" secondItem="gHa-uj-h4A" secondAttribute="centerX" id="Ozl-cO-cKr"/>
+                            <constraint firstItem="ulf-IC-8M3" firstAttribute="top" secondItem="1Xk-Ta-O1n" secondAttribute="bottom" constant="-5" id="Pxn-PH-GPU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bXF-hi-Ffa" secondAttribute="trailing" id="SIs-FT-OrG"/>
+                            <constraint firstItem="sEy-6h-uuE" firstAttribute="centerX" secondItem="1Xk-Ta-O1n" secondAttribute="centerX" id="UtA-Qr-H8w"/>
+                            <constraint firstItem="uui-L7-1kj" firstAttribute="centerY" secondItem="bXF-hi-Ffa" secondAttribute="centerY" id="XNc-MO-0MT"/>
+                            <constraint firstItem="pTB-AX-i6E" firstAttribute="top" secondItem="bXF-hi-Ffa" secondAttribute="bottom" constant="10" id="YIC-in-YrS"/>
+                            <constraint firstItem="bXF-hi-Ffa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YZM-YZ-ZbP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zrb-6r-h4w" secondAttribute="bottom" constant="20" id="c7i-r9-78B"/>
+                            <constraint firstItem="1Xk-Ta-O1n" firstAttribute="top" secondItem="bXF-hi-Ffa" secondAttribute="bottom" constant="60" id="cNS-wI-7tZ"/>
+                            <constraint firstItem="Cs0-kQ-rK4" firstAttribute="top" secondItem="1Xk-Ta-O1n" secondAttribute="top" id="cZI-bs-hCa"/>
+                            <constraint firstItem="gHa-uj-h4A" firstAttribute="centerX" secondItem="Cs0-kQ-rK4" secondAttribute="centerX" id="dij-RV-bDK"/>
+                            <constraint firstItem="bXF-hi-Ffa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eBd-KD-QJj"/>
+                            <constraint firstItem="pTB-AX-i6E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eWG-zg-8Kj"/>
+                            <constraint firstItem="hQc-LD-7c4" firstAttribute="top" secondItem="Cs0-kQ-rK4" secondAttribute="bottom" id="elh-8n-ucK"/>
+                            <constraint firstItem="1Xk-Ta-O1n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="esC-H9-Jyd"/>
+                            <constraint firstItem="uui-L7-1kj" firstAttribute="centerX" secondItem="bXF-hi-Ffa" secondAttribute="centerX" id="f6A-ZO-sM3"/>
+                            <constraint firstItem="gHa-uj-h4A" firstAttribute="top" secondItem="7bL-qD-drK" secondAttribute="bottom" constant="10" id="flO-KJ-E8F"/>
+                            <constraint firstItem="zrb-6r-h4w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fr3-lo-YyO"/>
+                            <constraint firstItem="R5s-Ys-SaL" firstAttribute="centerY" secondItem="TTP-Jz-Ml8" secondAttribute="centerY" id="g92-Y0-rP4"/>
+                            <constraint firstItem="sEy-6h-uuE" firstAttribute="top" secondItem="xu1-1c-sAo" secondAttribute="bottom" constant="10" id="jeh-Z8-oOt"/>
+                            <constraint firstItem="xu1-1c-sAo" firstAttribute="centerX" secondItem="1Xk-Ta-O1n" secondAttribute="centerX" id="m8Z-C5-W7O"/>
+                            <constraint firstItem="7bL-qD-drK" firstAttribute="top" secondItem="xu1-1c-sAo" secondAttribute="top" id="mAS-zL-L9R"/>
+                            <constraint firstItem="ton-2y-wZR" firstAttribute="centerX" secondItem="ulf-IC-8M3" secondAttribute="centerX" id="okZ-Rl-fz9"/>
+                            <constraint firstItem="6tp-TT-BOL" firstAttribute="top" secondItem="hQc-LD-7c4" secondAttribute="bottom" constant="-20" id="ruN-xf-DFC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cs0-kQ-rK4" secondAttribute="trailing" constant="59" id="xFn-9E-duh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OpE-vg-HW0"/>
+                    <connections>
+                        <outlet property="bagsOfPeasLabel" destination="ton-2y-wZR" id="eLh-d8-65u"/>
+                        <outlet property="bottlesOfMilkLabel" destination="R5s-Ys-SaL" id="jFE-eJ-xlL"/>
+                        <outlet property="cansOfBeansLabel" destination="TTP-Jz-Ml8" id="mu7-2r-VRq"/>
+                        <outlet property="dozensOfEggsLabel" destination="6tp-TT-BOL" id="OOx-Ca-Voc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--Checkout View Controller-->
+        <scene sceneID="30t-a1-NaB">
+            <objects>
+                <viewController id="gyE-XQ-QAv" customClass="CheckoutViewController" customModule="SimplExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4b0-NU-iXc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping Cart Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ov-PW-w3b">
+                                <rect key="frame" x="72.5" y="270" width="230" height="27"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.56862745100000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-Pv-h7R">
+                                <rect key="frame" x="47.5" y="273.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="dOd-ey-zrI"/>
+                                    <constraint firstAttribute="width" constant="20" id="tFb-1f-DvA"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.56862745100000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="button:x9b-Pv-h7R:image"/>
+                                <connections>
+                                    <action selector="didTapBack:" destination="gyE-XQ-QAv" eventType="touchUpInside" id="BTS-ft-RMv"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-nu-Nlm">
+                                <rect key="frame" x="140.5" y="317" width="94" height="33"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmr-gN-aap">
+                                        <rect key="frame" x="0.0" y="6" width="39" height="21"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6b-va-BVh">
+                                        <rect key="frame" x="44" y="0.0" width="50" height="33"/>
+                                        <color key="backgroundColor" red="1" green="0.56862745100000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="H5t-WP-4tU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                        <state key="normal" title="USD">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapCurrency:" destination="gyE-XQ-QAv" eventType="touchUpInside" id="wc7-2o-NC9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="w6b-va-BVh" firstAttribute="centerY" secondItem="nmr-gN-aap" secondAttribute="centerY" id="6Mr-nz-qkN"/>
+                                    <constraint firstAttribute="bottom" secondItem="w6b-va-BVh" secondAttribute="bottom" id="C3y-bI-Vxq"/>
+                                    <constraint firstAttribute="trailing" secondItem="w6b-va-BVh" secondAttribute="trailing" id="N14-34-C4q"/>
+                                    <constraint firstItem="nmr-gN-aap" firstAttribute="leading" secondItem="2cc-nu-Nlm" secondAttribute="leading" id="S3r-09-kR7"/>
+                                    <constraint firstItem="w6b-va-BVh" firstAttribute="leading" secondItem="nmr-gN-aap" secondAttribute="trailing" constant="5" id="e5e-Lk-7hG"/>
+                                    <constraint firstItem="w6b-va-BVh" firstAttribute="top" secondItem="2cc-nu-Nlm" secondAttribute="top" id="ypI-TU-kwU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4Ov-PW-w3b" firstAttribute="leading" secondItem="x9b-Pv-h7R" secondAttribute="trailing" constant="5" id="8xe-wm-T7Z"/>
+                            <constraint firstItem="2cc-nu-Nlm" firstAttribute="centerY" secondItem="4b0-NU-iXc" secondAttribute="centerY" id="QwJ-5V-UBy"/>
+                            <constraint firstItem="4Ov-PW-w3b" firstAttribute="centerX" secondItem="4b0-NU-iXc" secondAttribute="centerX" id="R1c-XZ-y0r"/>
+                            <constraint firstItem="x9b-Pv-h7R" firstAttribute="centerY" secondItem="4Ov-PW-w3b" secondAttribute="centerY" id="aBI-UY-BdM"/>
+                            <constraint firstItem="2cc-nu-Nlm" firstAttribute="top" secondItem="4Ov-PW-w3b" secondAttribute="bottom" constant="20" id="rEb-vF-DUk"/>
+                            <constraint firstItem="2cc-nu-Nlm" firstAttribute="centerX" secondItem="4b0-NU-iXc" secondAttribute="centerX" id="wPV-3N-T5O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y6k-UF-Xc6"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="x9b-Pv-h7R" id="hXL-0L-iEx"/>
+                        <outlet property="currencyButton" destination="w6b-va-BVh" id="uc4-Pl-Os7"/>
+                        <outlet property="totalLabel" destination="nmr-gN-aap" id="28V-Oq-8SX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTr-Km-wjx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="917.60000000000002" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SEblack" width="500" height="500"/>
+        <image name="banner" width="6000" height="4000"/>
+        <image name="beans" width="649" height="649"/>
+        <image name="button:x9b-Pv-h7R:image" width="200" height="200">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGUFFYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEAcI
+ERYbHCIjKSw2PkJGSk1VJG51bGzUCQoLDA0ODxBWJGNsYXNzXE5TSW1hZ2VGbGFnc1ZOU1JlcHNXTlND
+b2xvcoAPEgTAAACAAoAJ0hIJExVaTlMub2JqZWN0c6EUgAOACNISCRcVohgZgASABYAIEAXTHQkeHyAh
+V05TLmJhc2VbTlMucmVsYXRpdmWAAIAHgAZfEHxmaWxlOi8vL1VzZXJzL2RhbmllbG5hbGwvU2ltcGxl
+JTIwRXhjaGFuZ2UvU2ltcGxFeGNoYW5nZS9TdXBwb3J0aW5nJTIwRmlsZXMvQXNzZXRzLnhjYXNzZXRz
+L2JhY2tBcnJvdy5pbWFnZXNldC9iYWNrQXJyb3cucG5n0iQlJidaJGNsYXNzbmFtZVgkY2xhc3Nlc1VO
+U1VSTKImKFhOU09iamVjdNIkJSorV05TQXJyYXmiKijVLS4vMAkxMjM0NVdOU1doaXRlXE5TQ29tcG9u
+ZW50c1xOU0NvbG9yU3BhY2VfEBJOU0N1c3RvbUNvbG9yU3BhY2VEMCAwAEMwIDAQA4AKgA7UNzg5CTo7
+PD1UTlNJRFVOU0lDQ1dOU01vZGVsEAmACxAAgA3SPwlAQVdOUy5kYXRhTxERaAAAEWhhcHBsAgAAAG1u
+dHJHUkFZWFlaIAfcAAgAFwAPAC4AD2Fjc3BBUFBMAAAAAG5vbmUAAAAAAAAAAAAAAAAAAAAAAAD21gAB
+AAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWRl
+c2MAAADAAAAAeWRzY20AAAE8AAAH6GNwcnQAAAkkAAAAI3d0cHQAAAlIAAAAFGtUUkMAAAlcAAAIDGRl
+c2MAAAAAAAAAH0dlbmVyaWMgR3JheSBHYW1tYSAyLjIgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAAC4AAAGEZGFESwAAADgAAAGyY2FFUwAAADgAAAHqdmlWTgAA
+AEAAAAIicHRCUgAAAEoAAAJidWtVQQAAACwAAAKsZnJGVQAAAD4AAALYaHVIVQAAADQAAAMWemhUVwAA
+AB4AAANKbmJOTwAAADoAAANoY3NDWgAAACgAAAOiaGVJTAAAACQAAAPKaXRJVAAAAE4AAAPucm9STwAA
+ACoAAAQ8ZGVERQAAAE4AAARma29LUgAAACIAAAS0c3ZTRQAAADgAAAGyemhDTgAAAB4AAATWamFKUAAA
+ACYAAAT0ZWxHUgAAACoAAAUacHRQTwAAAFIAAAVEbmxOTAAAAEAAAAWWZXNFUwAAAEwAAAXWdGhUSAAA
+ADIAAAYidHJUUgAAACQAAAZUZmlGSQAAAEYAAAZ4aHJIUgAAAD4AAAa+cGxQTAAAAEoAAAb8cnVSVQAA
+ADoAAAdGZW5VUwAAADwAAAeAYXJFRwAAACwAAAe8AFYBYQBlAG8AYgBlAGMAbgDhACAAcwBpAHYA4QAg
+AGcAYQBtAGEAIAAyACwAMgBHAGUAbgBlAHIAaQBzAGsAIABnAHIA5QAgADIALAAyACAAZwBhAG0AbQBh
+AHAAcgBvAGYAaQBsAEcAYQBtAG0AYQAgAGQAZQAgAGcAcgBpAHMAbwBzACAAZwBlAG4A6AByAGkAYwBh
+ACAAMgAuADIAQx6lAHUAIABoAOwAbgBoACAATQDgAHUAIAB4AOEAbQAgAEMAaAB1AG4AZwAgAEcAYQBt
+AG0AYQAgADIALgAyAFAAZQByAGYAaQBsACAARwBlAG4A6QByAGkAYwBvACAAZABhACAARwBhAG0AYQAg
+AGQAZQAgAEMAaQBuAHoAYQBzACAAMgAsADIEFwQwBDMEMAQ7BEwEPQQwACAARwByAGEAeQAtBDMEMAQ8
+BDAAIAAyAC4AMgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAZwByAGkAcwAgAGcAYQBt
+AG0AYQAgADIALAAyAMEAbAB0AGEAbADhAG4AbwBzACAAcwB6APwAcgBrAGUAIABnAGEAbQBtAGEAIAAy
+AC4AMpAadShwcJaOUUlepgAgADIALgAyACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABnAHIA5QAg
+AGcAYQBtAG0AYQAgADIALAAyAC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAOEAIAFhAGUAZADhACAAZwBh
+AG0AYQAgADIALgAyBdIF0AXeBdQAIAXQBeQF1QXoACAF2wXcBdwF2QAgADIALgAyAFAAcgBvAGYAaQBs
+AG8AIABnAHIAaQBnAGkAbwAgAGcAZQBuAGUAcgBpAGMAbwAgAGQAZQBsAGwAYQAgAGcAYQBtAG0AYQAg
+ADIALAAyAEcAYQBtAGEAIABnAHIAaQAgAGcAZQBuAGUAcgBpAGMBAwAgADIALAAyAEEAbABsAGcAZQBt
+AGUAaQBuAGUAcwAgAEcAcgBhAHUAcwB0AHUAZgBlAG4ALQBQAHIAbwBmAGkAbAAgAEcAYQBtAG0AYQAg
+ADIALAAyx3y8GAAg1ozAyQAgrBC5yAAgADIALgAyACDVBLhc0wzHfGZukBpwcF6mfPtlcAAgADIALgAy
+ACBjz4/wZYdO9k4AgiwwsDDsMKQwrDDzMN4AIAAyAC4AMgAgMNcw7TDVMKEwpDDrA5MDtQO9A7kDugPM
+ACADkwO6A8EDuQAgA5MDrAO8A7wDsQAgADIALgAyAFAAZQByAGYAaQBsACAAZwBlAG4A6QByAGkAYwBv
+ACAAZABlACAAYwBpAG4AegBlAG4AdABvAHMAIABkAGEAIABHAGEAbQBtAGEAIAAyACwAMgBBAGwAZwBl
+AG0AZQBlAG4AIABnAHIAaQBqAHMAIABnAGEAbQBtAGEAIAAyACwAMgAtAHAAcgBvAGYAaQBlAGwAUABl
+AHIAZgBpAGwAIABnAGUAbgDpAHIAaQBjAG8AIABkAGUAIABnAGEAbQBtAGEAIABkAGUAIABnAHIAaQBz
+AGUAcwAgADIALAAyDiMOMQ4HDioONQ5BDgEOIQ4hDjIOQA4BDiMOIg5MDhcOMQ5IDicORA4bACAAMgAu
+ADIARwBlAG4AZQBsACAARwByAGkAIABHAGEAbQBhACAAMgAsADIAWQBsAGUAaQBuAGUAbgAgAGgAYQBy
+AG0AYQBhAG4AIABnAGEAbQBtAGEAIAAyACwAMgAgAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBp
+AQ0AawBpACAARwByAGEAeQAgAEcAYQBtAG0AYQAgADIALgAyACAAcAByAG8AZgBpAGwAVQBuAGkAdwBl
+AHIAcwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABzAHoAYQByAG8BWwBjAGkAIABnAGEAbQBtAGEAIAAy
+ACwAMgQeBDEESQQwBE8AIARBBDUEQAQwBE8AIAQzBDAEPAQ8BDAAIAAyACwAMgAtBD8EQAQ+BEQEOAQ7
+BEwARwBlAG4AZQByAGkAYwAgAEcAcgBhAHkAIABHAGEAbQBtAGEAIAAyAC4AMgAgAFAAcgBvAGYAaQBs
+AGUGOgYnBkUGJwAgADIALgAyACAGRAZIBkYAIAYxBkUGJwYvBkoAIAY5BicGRXRleHQAAAAAQ29weXJp
+Z2h0IEFwcGxlIEluYy4sIDIwMTIAAFhZWiAAAAAAAADzUQABAAAAARbMY3VydgAAAAAAAAQAAAAABQAK
+AA8AFAAZAB4AIwAoAC0AMgA3ADsAQABFAEoATwBUAFkAXgBjAGgAbQByAHcAfACBAIYAiwCQAJUAmgCf
+AKQAqQCuALIAtwC8AMEAxgDLANAA1QDbAOAA5QDrAPAA9gD7AQEBBwENARMBGQEfASUBKwEyATgBPgFF
+AUwBUgFZAWABZwFuAXUBfAGDAYsBkgGaAaEBqQGxAbkBwQHJAdEB2QHhAekB8gH6AgMCDAIUAh0CJgIv
+AjgCQQJLAlQCXQJnAnECegKEAo4CmAKiAqwCtgLBAssC1QLgAusC9QMAAwsDFgMhAy0DOANDA08DWgNm
+A3IDfgOKA5YDogOuA7oDxwPTA+AD7AP5BAYEEwQgBC0EOwRIBFUEYwRxBH4EjASaBKgEtgTEBNME4QTw
+BP4FDQUcBSsFOgVJBVgFZwV3BYYFlgWmBbUFxQXVBeUF9gYGBhYGJwY3BkgGWQZqBnsGjAadBq8GwAbR
+BuMG9QcHBxkHKwc9B08HYQd0B4YHmQesB78H0gflB/gICwgfCDIIRghaCG4IggiWCKoIvgjSCOcI+wkQ
+CSUJOglPCWQJeQmPCaQJugnPCeUJ+woRCicKPQpUCmoKgQqYCq4KxQrcCvMLCwsiCzkLUQtpC4ALmAuw
+C8gL4Qv5DBIMKgxDDFwMdQyODKcMwAzZDPMNDQ0mDUANWg10DY4NqQ3DDd4N+A4TDi4OSQ5kDn8Omw62
+DtIO7g8JDyUPQQ9eD3oPlg+zD88P7BAJECYQQxBhEH4QmxC5ENcQ9RETETERTxFtEYwRqhHJEegSBxIm
+EkUSZBKEEqMSwxLjEwMTIxNDE2MTgxOkE8UT5RQGFCcUSRRqFIsUrRTOFPAVEhU0FVYVeBWbFb0V4BYD
+FiYWSRZsFo8WshbWFvoXHRdBF2UXiReuF9IX9xgbGEAYZRiKGK8Y1Rj6GSAZRRlrGZEZtxndGgQaKhpR
+GncanhrFGuwbFBs7G2MbihuyG9ocAhwqHFIcexyjHMwc9R0eHUcdcB2ZHcMd7B4WHkAeah6UHr4e6R8T
+Hz4faR+UH78f6iAVIEEgbCCYIMQg8CEcIUghdSGhIc4h+yInIlUigiKvIt0jCiM4I2YjlCPCI/AkHyRN
+JHwkqyTaJQklOCVoJZclxyX3JicmVyaHJrcm6CcYJ0kneierJ9woDSg/KHEooijUKQYpOClrKZ0p0CoC
+KjUqaCqbKs8rAis2K2krnSvRLAUsOSxuLKIs1y0MLUEtdi2rLeEuFi5MLoIuty7uLyQvWi+RL8cv/jA1
+MGwwpDDbMRIxSjGCMbox8jIqMmMymzLUMw0zRjN/M7gz8TQrNGU0njTYNRM1TTWHNcI1/TY3NnI2rjbp
+NyQ3YDecN9c4FDhQOIw4yDkFOUI5fzm8Ofk6Njp0OrI67zstO2s7qjvoPCc8ZTykPOM9Ij1hPaE94D4g
+PmA+oD7gPyE/YT+iP+JAI0BkQKZA50EpQWpBrEHuQjBCckK1QvdDOkN9Q8BEA0RHRIpEzkUSRVVFmkXe
+RiJGZ0arRvBHNUd7R8BIBUhLSJFI10kdSWNJqUnwSjdKfUrESwxLU0uaS+JMKkxyTLpNAk1KTZNN3E4l
+Tm5Ot08AT0lPk0/dUCdQcVC7UQZRUFGbUeZSMVJ8UsdTE1NfU6pT9lRCVI9U21UoVXVVwlYPVlxWqVb3
+V0RXklfgWC9YfVjLWRpZaVm4WgdaVlqmWvVbRVuVW+VcNVyGXNZdJ114XcleGl5sXr1fD19hX7NgBWBX
+YKpg/GFPYaJh9WJJYpxi8GNDY5dj62RAZJRk6WU9ZZJl52Y9ZpJm6Gc9Z5Nn6Wg/aJZo7GlDaZpp8WpI
+ap9q92tPa6dr/2xXbK9tCG1gbbluEm5rbsRvHm94b9FwK3CGcOBxOnGVcfByS3KmcwFzXXO4dBR0cHTM
+dSh1hXXhdj52m3b4d1Z3s3gReG54zHkqeYl553pGeqV7BHtje8J8IXyBfOF9QX2hfgF+Yn7CfyN/hH/l
+gEeAqIEKgWuBzYIwgpKC9INXg7qEHYSAhOOFR4Wrhg6GcobXhzuHn4gEiGmIzokziZmJ/opkisqLMIuW
+i/yMY4zKjTGNmI3/jmaOzo82j56QBpBukNaRP5GokhGSepLjk02TtpQglIqU9JVflcmWNJaflwqXdZfg
+mEyYuJkkmZCZ/JpomtWbQpuvnByciZz3nWSd0p5Anq6fHZ+Ln/qgaaDYoUehtqImopajBqN2o+akVqTH
+pTilqaYapoum/adup+CoUqjEqTepqaocqo+rAqt1q+msXKzQrUStuK4trqGvFq+LsACwdbDqsWCx1rJL
+ssKzOLOutCW0nLUTtYq2AbZ5tvC3aLfguFm40blKucK6O7q1uy67p7whvJu9Fb2Pvgq+hL7/v3q/9cBw
+wOzBZ8Hjwl/C28NYw9TEUcTOxUvFyMZGxsPHQce/yD3IvMk6ybnKOMq3yzbLtsw1zLXNNc21zjbOts83
+z7jQOdC60TzRvtI/0sHTRNPG1EnUy9VO1dHWVdbY11zX4Nhk2OjZbNnx2nba+9uA3AXcit0Q3ZbeHN6i
+3ynfr+A24L3hROHM4lPi2+Nj4+vkc+T85YTmDeaW5x/nqegy6LzpRunQ6lvq5etw6/vshu0R7ZzuKO60
+70DvzPBY8OXxcvH/8ozzGfOn9DT0wvVQ9d72bfb794r4Gfio+Tj5x/pX+uf7d/wH/Jj9Kf26/kv+3P9t
+//+ADNIkJUNEXU5TTXV0YWJsZURhdGGjQ0UoVk5TRGF0YdIkJUdIXE5TQ29sb3JTcGFjZaJJKFxOU0Nv
+bG9yU3BhY2XSJCVLTFdOU0NvbG9yokso0iQlTk9XTlNJbWFnZaJOKF8QD05TS2V5ZWRBcmNoaXZlctFS
+U1Ryb290gAEACAARABoAIwAtADIANwBKAFAAWQBgAG0AdAB8AH4AgwCFAIcAjACXAJkAmwCdAKIApQCn
+AKkAqwCtALQAvADIAMoAzADOAU0BUgFdAWYBbAFvAXgBfQGFAYgBkwGbAagBtQHKAc8B0wHVAdcB2QHi
+AecB7QH1AfcB+QH7Af0CAgIKE3YTeBN9E4sTjxOWE5sTqBOrE7gTvRPFE8gTzRPVE9gT6hPtE/IAAAAA
+AAACAQAAAAAAAABUAAAAAAAAAAAAAAAAAAAT9A
+</mutableData>
+        </image>
+        <image name="eggs" width="800" height="800"/>
+        <image name="milk" width="488" height="488"/>
+        <image name="peas" width="720" height="480"/>
+    </resources>
+</document>

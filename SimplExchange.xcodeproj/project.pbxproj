@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1117A1223F279800555452 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1117A0223F279800555452 /* CheckoutViewController.swift */; };
+		4C1117B6223F3BD800555452 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A3223F3BD700555452 /* Montserrat-SemiBoldItalic.ttf */; };
+		4C1117B7223F3BD800555452 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A4223F3BD700555452 /* Montserrat-ExtraLightItalic.ttf */; };
+		4C1117B8223F3BD800555452 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A5223F3BD700555452 /* Montserrat-Thin.ttf */; };
+		4C1117B9223F3BD800555452 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A6223F3BD700555452 /* Montserrat-Black.ttf */; };
+		4C1117BA223F3BD800555452 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A7223F3BD800555452 /* Montserrat-BoldItalic.ttf */; };
+		4C1117BB223F3BD800555452 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A8223F3BD800555452 /* Montserrat-ExtraBold.ttf */; };
+		4C1117BC223F3BD800555452 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117A9223F3BD800555452 /* Montserrat-Bold.ttf */; };
+		4C1117BD223F3BD800555452 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AA223F3BD800555452 /* Montserrat-BlackItalic.ttf */; };
+		4C1117BE223F3BD800555452 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AB223F3BD800555452 /* Montserrat-Regular.ttf */; };
+		4C1117BF223F3BD800555452 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AC223F3BD800555452 /* OFL.txt */; };
+		4C1117C0223F3BD800555452 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AD223F3BD800555452 /* Montserrat-ExtraBoldItalic.ttf */; };
+		4C1117C1223F3BD800555452 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AE223F3BD800555452 /* Montserrat-SemiBold.ttf */; };
+		4C1117C2223F3BD800555452 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117AF223F3BD800555452 /* Montserrat-ExtraLight.ttf */; };
+		4C1117C3223F3BD800555452 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B0223F3BD800555452 /* Montserrat-ThinItalic.ttf */; };
+		4C1117C4223F3BD800555452 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B1223F3BD800555452 /* Montserrat-Italic.ttf */; };
+		4C1117C5223F3BD800555452 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B2223F3BD800555452 /* Montserrat-Light.ttf */; };
+		4C1117C6223F3BD800555452 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B3223F3BD800555452 /* Montserrat-Medium.ttf */; };
+		4C1117C7223F3BD800555452 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B4223F3BD800555452 /* Montserrat-LightItalic.ttf */; };
+		4C1117C8223F3BD800555452 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117B5223F3BD800555452 /* Montserrat-MediumItalic.ttf */; };
+		4C1117CA2240936300555452 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1117C92240936300555452 /* CheckoutViewModel.swift */; };
+		4C3B2FAB2243594D00BB79BD /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B2FAA2243594D00BB79BD /* Currency.swift */; };
+		4C3B2FAC224375BB00BB79BD /* SimplExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC742E223C9BE70045D69F /* SimplExchangeUITests.swift */; };
+		4C3B2FAD224375C700BB79BD /* SimplExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC7423223C9BE70045D69F /* SimplExchangeTests.swift */; };
+		4CBC740F223C9BE50045D69F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC740E223C9BE50045D69F /* AppDelegate.swift */; };
+		4CBC7411223C9BE50045D69F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC7410223C9BE50045D69F /* ShopViewController.swift */; };
+		4CBC7414223C9BE50045D69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC7412223C9BE50045D69F /* Main.storyboard */; };
+		4CBC7416223C9BE70045D69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC7415223C9BE70045D69F /* Assets.xcassets */; };
+		4CBC7419223C9BE70045D69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC7417223C9BE70045D69F /* LaunchScreen.storyboard */; };
+		4CBC7441223CB6FE0045D69F /* ShoppingBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC7440223CB6FE0045D69F /* ShoppingBasket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBC7420223C9BE70045D69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBC7403223C9BE40045D69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBC740A223C9BE40045D69F;
+			remoteInfo = "Simple Exchange";
+		};
+		4CBC742B223C9BE70045D69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBC7403223C9BE40045D69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBC740A223C9BE40045D69F;
+			remoteInfo = "Simple Exchange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1117A0223F279800555452 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		4C1117A3223F3BD700555452 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4C1117A4223F3BD700555452 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4C1117A5223F3BD700555452 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		4C1117A6223F3BD700555452 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		4C1117A7223F3BD800555452 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4C1117A8223F3BD800555452 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4C1117A9223F3BD800555452 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		4C1117AA223F3BD800555452 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4C1117AB223F3BD800555452 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		4C1117AC223F3BD800555452 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4C1117AD223F3BD800555452 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4C1117AE223F3BD800555452 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		4C1117AF223F3BD800555452 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4C1117B0223F3BD800555452 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4C1117B1223F3BD800555452 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		4C1117B2223F3BD800555452 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		4C1117B3223F3BD800555452 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		4C1117B4223F3BD800555452 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		4C1117B5223F3BD800555452 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4C1117C92240936300555452 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
+		4C3B2FAA2243594D00BB79BD /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		4CBC740B223C9BE50045D69F /* SimplExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC740E223C9BE50045D69F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CBC7410223C9BE50045D69F /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		4CBC7413223C9BE50045D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBC7415223C9BE70045D69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CBC7418223C9BE70045D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CBC741A223C9BE70045D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBC741F223C9BE70045D69F /* SimplExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC7423223C9BE70045D69F /* SimplExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplExchangeTests.swift; sourceTree = "<group>"; };
+		4CBC7425223C9BE70045D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBC742A223C9BE70045D69F /* SimplExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC742E223C9BE70045D69F /* SimplExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplExchangeUITests.swift; sourceTree = "<group>"; };
+		4CBC7430223C9BE70045D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBC7440223CB6FE0045D69F /* ShoppingBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBasket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBC7408223C9BE40045D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC741C223C9BE70045D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC7427223C9BE70045D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1117A2223F3A8600555452 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4C1117A6223F3BD700555452 /* Montserrat-Black.ttf */,
+				4C1117AA223F3BD800555452 /* Montserrat-BlackItalic.ttf */,
+				4C1117A9223F3BD800555452 /* Montserrat-Bold.ttf */,
+				4C1117A7223F3BD800555452 /* Montserrat-BoldItalic.ttf */,
+				4C1117A8223F3BD800555452 /* Montserrat-ExtraBold.ttf */,
+				4C1117AD223F3BD800555452 /* Montserrat-ExtraBoldItalic.ttf */,
+				4C1117AF223F3BD800555452 /* Montserrat-ExtraLight.ttf */,
+				4C1117A4223F3BD700555452 /* Montserrat-ExtraLightItalic.ttf */,
+				4C1117B1223F3BD800555452 /* Montserrat-Italic.ttf */,
+				4C1117B2223F3BD800555452 /* Montserrat-Light.ttf */,
+				4C1117B4223F3BD800555452 /* Montserrat-LightItalic.ttf */,
+				4C1117B3223F3BD800555452 /* Montserrat-Medium.ttf */,
+				4C1117B5223F3BD800555452 /* Montserrat-MediumItalic.ttf */,
+				4C1117AB223F3BD800555452 /* Montserrat-Regular.ttf */,
+				4C1117AE223F3BD800555452 /* Montserrat-SemiBold.ttf */,
+				4C1117A3223F3BD700555452 /* Montserrat-SemiBoldItalic.ttf */,
+				4C1117A5223F3BD700555452 /* Montserrat-Thin.ttf */,
+				4C1117B0223F3BD800555452 /* Montserrat-ThinItalic.ttf */,
+				4C1117AC223F3BD800555452 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4CBC7402223C9BE40045D69F = {
+			isa = PBXGroup;
+			children = (
+				4CBC740D223C9BE50045D69F /* SimplExchange */,
+				4CBC7422223C9BE70045D69F /* SimplExchangeTests */,
+				4CBC742D223C9BE70045D69F /* SimplExchangeUITests */,
+				4CBC740C223C9BE50045D69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBC740C223C9BE50045D69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC740B223C9BE50045D69F /* SimplExchange.app */,
+				4CBC741F223C9BE70045D69F /* SimplExchangeTests.xctest */,
+				4CBC742A223C9BE70045D69F /* SimplExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBC740D223C9BE50045D69F /* SimplExchange */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC743C223C9C240045D69F /* Models */,
+				4CBC743D223C9C2F0045D69F /* Views */,
+				4CBC743E223C9C360045D69F /* ViewModels */,
+				4CBC743F223C9C520045D69F /* Supporting Files */,
+			);
+			path = SimplExchange;
+			sourceTree = "<group>";
+		};
+		4CBC7422223C9BE70045D69F /* SimplExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC7423223C9BE70045D69F /* SimplExchangeTests.swift */,
+				4CBC7425223C9BE70045D69F /* Info.plist */,
+			);
+			path = SimplExchangeTests;
+			sourceTree = "<group>";
+		};
+		4CBC742D223C9BE70045D69F /* SimplExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC742E223C9BE70045D69F /* SimplExchangeUITests.swift */,
+				4CBC7430223C9BE70045D69F /* Info.plist */,
+			);
+			path = SimplExchangeUITests;
+			sourceTree = "<group>";
+		};
+		4CBC743C223C9C240045D69F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B2FAA2243594D00BB79BD /* Currency.swift */,
+				4CBC7440223CB6FE0045D69F /* ShoppingBasket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CBC743D223C9C2F0045D69F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC7417223C9BE70045D69F /* LaunchScreen.storyboard */,
+				4CBC7412223C9BE50045D69F /* Main.storyboard */,
+				4CBC7410223C9BE50045D69F /* ShopViewController.swift */,
+				4C1117A0223F279800555452 /* CheckoutViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CBC743E223C9C360045D69F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C1117C92240936300555452 /* CheckoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4CBC743F223C9C520045D69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1117A2223F3A8600555452 /* Fonts */,
+				4CBC740E223C9BE50045D69F /* AppDelegate.swift */,
+				4CBC7415223C9BE70045D69F /* Assets.xcassets */,
+				4CBC741A223C9BE70045D69F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBC740A223C9BE40045D69F /* SimplExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBC7433223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchange" */;
+			buildPhases = (
+				4CBC7407223C9BE40045D69F /* Sources */,
+				4CBC7408223C9BE40045D69F /* Frameworks */,
+				4CBC7409223C9BE40045D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplExchange;
+			productName = "Simple Exchange";
+			productReference = 4CBC740B223C9BE50045D69F /* SimplExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBC741E223C9BE70045D69F /* SimplExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBC7436223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchangeTests" */;
+			buildPhases = (
+				4CBC741B223C9BE70045D69F /* Sources */,
+				4CBC741C223C9BE70045D69F /* Frameworks */,
+				4CBC741D223C9BE70045D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBC7421223C9BE70045D69F /* PBXTargetDependency */,
+			);
+			name = SimplExchangeTests;
+			productName = "Simple ExchangeTests";
+			productReference = 4CBC741F223C9BE70045D69F /* SimplExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CBC7429223C9BE70045D69F /* SimplExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBC7439223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchangeUITests" */;
+			buildPhases = (
+				4CBC7426223C9BE70045D69F /* Sources */,
+				4CBC7427223C9BE70045D69F /* Frameworks */,
+				4CBC7428223C9BE70045D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBC742C223C9BE70045D69F /* PBXTargetDependency */,
+			);
+			name = SimplExchangeUITests;
+			productName = "Simple ExchangeUITests";
+			productReference = 4CBC742A223C9BE70045D69F /* SimplExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBC7403223C9BE40045D69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Nall";
+				TargetAttributes = {
+					4CBC740A223C9BE40045D69F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4CBC741E223C9BE70045D69F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4CBC740A223C9BE40045D69F;
+					};
+					4CBC7429223C9BE70045D69F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4CBC740A223C9BE40045D69F;
+					};
+				};
+			};
+			buildConfigurationList = 4CBC7406223C9BE40045D69F /* Build configuration list for PBXProject "SimplExchange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBC7402223C9BE40045D69F;
+			productRefGroup = 4CBC740C223C9BE50045D69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBC740A223C9BE40045D69F /* SimplExchange */,
+				4CBC741E223C9BE70045D69F /* SimplExchangeTests */,
+				4CBC7429223C9BE70045D69F /* SimplExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBC7409223C9BE40045D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1117C8223F3BD800555452 /* Montserrat-MediumItalic.ttf in Resources */,
+				4C1117BE223F3BD800555452 /* Montserrat-Regular.ttf in Resources */,
+				4C1117BC223F3BD800555452 /* Montserrat-Bold.ttf in Resources */,
+				4C1117BA223F3BD800555452 /* Montserrat-BoldItalic.ttf in Resources */,
+				4CBC7419223C9BE70045D69F /* LaunchScreen.storyboard in Resources */,
+				4C1117BD223F3BD800555452 /* Montserrat-BlackItalic.ttf in Resources */,
+				4C1117B9223F3BD800555452 /* Montserrat-Black.ttf in Resources */,
+				4C1117C6223F3BD800555452 /* Montserrat-Medium.ttf in Resources */,
+				4CBC7416223C9BE70045D69F /* Assets.xcassets in Resources */,
+				4C1117C7223F3BD800555452 /* Montserrat-LightItalic.ttf in Resources */,
+				4C1117B7223F3BD800555452 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				4C1117BF223F3BD800555452 /* OFL.txt in Resources */,
+				4C1117C3223F3BD800555452 /* Montserrat-ThinItalic.ttf in Resources */,
+				4C1117C1223F3BD800555452 /* Montserrat-SemiBold.ttf in Resources */,
+				4C1117B6223F3BD800555452 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				4C1117B8223F3BD800555452 /* Montserrat-Thin.ttf in Resources */,
+				4C1117C0223F3BD800555452 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				4C1117C2223F3BD800555452 /* Montserrat-ExtraLight.ttf in Resources */,
+				4C1117C4223F3BD800555452 /* Montserrat-Italic.ttf in Resources */,
+				4C1117C5223F3BD800555452 /* Montserrat-Light.ttf in Resources */,
+				4C1117BB223F3BD800555452 /* Montserrat-ExtraBold.ttf in Resources */,
+				4CBC7414223C9BE50045D69F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC741D223C9BE70045D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC7428223C9BE70045D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBC7407223C9BE40045D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3B2FAB2243594D00BB79BD /* Currency.swift in Sources */,
+				4C1117CA2240936300555452 /* CheckoutViewModel.swift in Sources */,
+				4C1117A1223F279800555452 /* CheckoutViewController.swift in Sources */,
+				4CBC7411223C9BE50045D69F /* ShopViewController.swift in Sources */,
+				4CBC7441223CB6FE0045D69F /* ShoppingBasket.swift in Sources */,
+				4CBC740F223C9BE50045D69F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC741B223C9BE70045D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3B2FAD224375C700BB79BD /* SimplExchangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC7426223C9BE70045D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3B2FAC224375BB00BB79BD /* SimplExchangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBC7421223C9BE70045D69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBC740A223C9BE40045D69F /* SimplExchange */;
+			targetProxy = 4CBC7420223C9BE70045D69F /* PBXContainerItemProxy */;
+		};
+		4CBC742C223C9BE70045D69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBC740A223C9BE40045D69F /* SimplExchange */;
+			targetProxy = 4CBC742B223C9BE70045D69F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBC7412223C9BE50045D69F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBC7413223C9BE50045D69F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBC7417223C9BE70045D69F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBC7418223C9BE70045D69F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBC7431223C9BE70045D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CBC7432223C9BE70045D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBC7434223C9BE70045D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = "SimplExchange/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielnall.SimplExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CBC7435223C9BE70045D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = "SimplExchange/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielnall.SimplExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CBC7437223C9BE70045D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = SimplExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielnall.Simple-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplExchange.app/SimplExchange";
+			};
+			name = Debug;
+		};
+		4CBC7438223C9BE70045D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = SimplExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielnall.Simple-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplExchange.app/SimplExchange";
+			};
+			name = Release;
+		};
+		4CBC743A223C9BE70045D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = SimplExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielnall.Simple-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Exchange";
+			};
+			name = Debug;
+		};
+		4CBC743B223C9BE70045D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGLFM7479;
+				INFOPLIST_FILE = SimplExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielnall.Simple-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Exchange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBC7406223C9BE40045D69F /* Build configuration list for PBXProject "SimplExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC7431223C9BE70045D69F /* Debug */,
+				4CBC7432223C9BE70045D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBC7433223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC7434223C9BE70045D69F /* Debug */,
+				4CBC7435223C9BE70045D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBC7436223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC7437223C9BE70045D69F /* Debug */,
+				4CBC7438223C9BE70045D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBC7439223C9BE70045D69F /* Build configuration list for PBXNativeTarget "SimplExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC743A223C9BE70045D69F /* Debug */,
+				4CBC743B223C9BE70045D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBC7403223C9BE40045D69F /* Project object */;
+}
